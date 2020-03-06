@@ -8,4 +8,5 @@ individuo1 =  [0.45, 0.2, 0.34]
 
 # Instanciando las funciones
 func = FuncionesGeneticas("/home/joseph/Documentos/IA/Practica1/MC2A.csv")
+print("Valor fitness del individuo1")
 print(func.evaluar(individuo1))

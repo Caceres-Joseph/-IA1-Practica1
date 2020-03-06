@@ -30,8 +30,6 @@ class FuncionesGeneticas:
                 W3 = float(solucion[2])
                 NR = float(row[3])
 
-                print(P1)
-
                 NC = W1*P1 + W2*P2 + W3*P3
                 #(𝑁𝑅𝑖 − 𝑁𝐶𝑖)^2
                 value += math.pow((NR - NC), 2)
